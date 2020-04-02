@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+}
+.main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    height: 100vh;
+}
+.content {
+    grid-column: 1;
+    background-color: aqua;
+}
+.content h1 {
+    text-align: center;
+    font-family: 'Lato';
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.text {
+    font-family: 'Lato';
+    font-size: 16px;
+    text-align: justify;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.text span {
+    font-weight: 800;
+    font-size: 18px;
+
+}
+.employees {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.profile {
+    width: 6em;
+    height: 6em;
+}
+.name {
+    font-family: 'Lato';
+    text-align: center;
+}
+.about {
+    font-family: 'Lato';
+    text-align: justify;
+}
+.text2 {
+    font-family: 'Lato';
+    font-size: 16px;
+    text-align: justify;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-top: 0;
+}
+.code {
+    grid-column: 2;
+    background-color: blueviolet;
+}
+.profile2 {
+    width: 6em;
+    height: 6em;
+}
+.name2{
+    font-family: 'Lato';
+   
+}
+.result {
+margin-left: 3em;
+}

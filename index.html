@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="main">
+    <section class="content">
+			<h1>Filter</h1>
+			<p class="text">
+				El método <span>.filter()</span> crea un nuevo array con todos los elementos que cumplan la condición implementada por la función dada.
+				Imagina que tienes una empresa con estos empleados (Nico, Karo y Behar) todos tienen una habilidad, pero a ti te interesa saber quien sabe JavaScript para dejarle una tarea, con <span>.filter()</span> puedes encontrarlo sin buscar uno por uno, filter, filtra el arrar y te devuelve uno nuevo con los objetos que cumplan con la condición 
+			</p>
+			<div class="employees">
+				<article>
+					<img class="profile" src="/assets/guy (1).svg" alt="">
+					<h3 class="name">Peter</h3>
+					<p>Skill: Python</p>
+				</article>
+				<article>
+					<img class="profile" src="/assets/woman.svg" alt="">
+					<h3 class="name">Karo</h3>
+					<p>Skill: JavaScript</p>
+				</article>
+				<article>
+					<img class="profile" src="/assets/guy.svg" alt="">
+					<h3 class="name">Behar</h3>
+					<p class="about">Skill: Python</p>
+				</article>
+			</div>
+			<p class="text2">
+				const empleados = [nico, karo, behar] <br>
+        const KnowJavaScript = (empleados) => empleados.skill == 'JavaScript'; <br>
+				
+				let skil = empleados.filter(KnowJavaScript) <br>
+				console.log(skill)
+			</p>
+			<p class="text"> El resultado del console.log sería:</p>
+			<article class="result">
+				<img class="profile2" src="/assets/woman.svg" alt="">
+				<h3 class="name2">Karo</h3>
+				<p>Skill: JavaScript</p>
+			</article>
+		</section>
+		
+  	<section class="code"> </section>
+  </main>
+</body>
+</html>
