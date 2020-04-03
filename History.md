@@ -22,11 +22,77 @@ console.log(comidaSana);
 
 [🍎,🥑,🍉]
 ```
+
 ## Ejemplo de Uso
 
-Te voy a enseñar como aplicarlo con el problema de Oscar.
-Primero pasamos los datos a de los trabajadores a objetos así:
+Te voy a enseñar como aplicarlo en una zapatería, imagina que viene un cliente y quiere ver todos los modelos en su talla, es talla 6;
+Ordenas tus modelos en objetos:
 ```js
+let zapato1 =  {
+    talla: 6,
+    marca: "adidas"
+}
+let zapato2 =  {
+    talla: 8,
+    marca: "vans"
+}
+let zapato3 = {
+    talla: 5,
+    marca:  "rebook"
+}
+let zapato4 = {
+    talla: 6,
+    marca: "nike"
+}
+```
+
+Declarar un array de todos los zapatos:
+
+```js
+const zapatos = [zapato1, zapato2, zapato3, zapato4];
+```
+
+Hacemos la función que nos diga si es talla 6:
+
+```js
+function esTalla6(articulo){
+    return articulo.talla == 6;
+}
+```
+
+Hacemos el filter y lo mostramos
+
+```js
+const talla6 = zapatos.filter(esTalla6);
+console.log(talla6);
+```
+
+El resultado sería:
+
+```js
+[
+    {
+     talla: 6,
+     marca: "adidas"
+    }
+    {
+     talla: 6,
+     marca: "nike"
+    }
+]
+```
+
+### Ejercicio
+
+Ahora ya puedes aplicar un filter para ayudar a Oscara a encontrar quien sabe Python. 
+No olvides los pasos:
+1) Crea un arreglo 
+2) Crea la función
+3) Haz el filter
+4) Muestralo
+
+```js
+
 let leonidas = {
     name: "Leondias",
     skill:  "JavaScript"
@@ -39,39 +105,5 @@ let david = {
     name: "Nico",
     skill: "Python"
 }
-```
 
-Declaramos un array de los trabajadores
-
-```js
-const trabajadores = [leonidas, nicole, david];
-```
-Hacemos la función que nos diga si sabe Python
-
-```js
-function sabePython(trabajador){
-    return trabajador.skill == "Python";
-}
-```
-
-Hacemos el filter y lo mostramos
-
-```js
-const newProyecto = trabajadores.filter(sabePython);
-console.log(newProyecto);
-```
-
-El resultado sería:
-
-```js
-[
-    {
-     name: "Nicole",
-     skill: "Python"
-    }
-    {
-     name: "Nico",
-     skill: "Python"
-    }
-]
 ```
