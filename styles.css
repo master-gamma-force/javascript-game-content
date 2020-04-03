@@ -64,6 +64,8 @@ body {
 .code2 {
     width: 700px;
     height: auto;
+    margin-left: .7em;
+    border-radius: 12px;
 }
 .profile2 {
     width: 6em;
