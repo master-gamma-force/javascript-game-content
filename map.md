@@ -51,6 +51,7 @@ let zapato4 = {
 ```js
 const zapatos = [zapato1, zapato2, zapato3, zapato4];
 ```
+
 ### Paso 3  Hacemos la  función
 
 ```js
@@ -58,6 +59,7 @@ const cambiarTalla = (zapato) => {
   return zapato.talla -2;
 }
 ```
+
 ### Paso 4 Hacer el .map()
 
 ```js
