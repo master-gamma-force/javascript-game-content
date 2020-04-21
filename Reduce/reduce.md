@@ -66,8 +66,8 @@ No olvides los pasos:
 1) Tener los objetos.
 2) Declarar un array.
 3) Hacer la función.
-4) Aplicar .reduce()
-5) Mostrar el resultado.
+4) Aplicar el método .reduce()
+5) Mostrar el resultado con un console.
 
  ```js
 
@@ -79,9 +79,13 @@ let nicole = {
     name: "Nicole",
     salary: 4000
 }
-let david = {
-    name: "Nico",
+let richard = {
+    name: "Richard",
     salary: 2800
+}
+let angela = {
+    name: "Angela",
+    salary: 3200
 }
 
 ```

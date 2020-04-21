@@ -2,7 +2,7 @@
 
 ## Saludo (Frame 1)
 
-Soy Oscar tengo una startup y tengo algunos problemas que quiero que me ayudes a solucionar. 
+Soy Oscar tengo una startup y tengo algunos problemas que quiero que me ayudes a solucionar.
 
 ## Contexto (Frame 2)
 
@@ -10,9 +10,9 @@ Voy a crear un sistema de analisis de datos y necesito alguien de mi equipo que 
 
 ## Lección de Filter
 
-Hola soy Pepe y te apoyare enseñandote  Filter para que puedas ayudar a Oscar.
+Hola soy Pepe y te voy a enseñar el método *.filter()* para que puedas ayudar a Oscar.
 
-Te voy a explicar, filter funciona como un filtro, filter es un método que todo array tiene, recibe una función que es la parte lógica del filtro, lo que dice si pasa o no pasa, y ese filtro se aplica a los elementos del array, te devuelve un nuevo array con los elemetos del array que cumplieron con la condición dada en la función.
+Te voy a explicar, filter funciona como un filtro, filter es un método que todo array tiene, recibe una función que es la parte lógica del filtro, lo que dice si pasa o no pasa, y ese filtro se aplica a los elementos del array, te devuelve un nuevo array con los elementos del array que cumplieron con la condición dada en la función.
 Ejemplo:
 
 ```js
@@ -88,12 +88,13 @@ El resultado sería:
 
 ### Ejercicio
 
-Ahora ya puedes aplicar un filter para ayudar a Oscara a encontrar quien sabe Python.
+Ahora ya puedes aplicar un filter para ayudar a Oscar a encontrar quien sabe Python.
 No olvides los pasos:
+
 1) Crea un arreglo
 2) Crea la función
-3) Haz el filter
-4) Muestralo
+3) Aplica el método filter.()
+4) Haz un console con el resultado
 
 ```js
 
@@ -105,9 +106,13 @@ let nicole = {
     name: "Nicole",
     skill: "Python"
 }
-let david = {
-    name: "Nico",
+let richard = {
+    name: "Richard",
     skill: "Python"
+}
+let angela = {
+    name: "Angela",
+    skill: "JavaScript"
 }
 
 ```
