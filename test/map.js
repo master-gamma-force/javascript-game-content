@@ -15,12 +15,12 @@ let angela = {
     timeOfWork: 12
 }
 
-const employees = [leonidas, nicole, richard, angela];
+const employees = [];
 
-const  monthsToYears = (employee) => {
-return  employee.timeOfWork /12;
+const  monthsToYears = () => {
+
 }
 
-const timeInYears = employees.map(monthsToYears);
+const timeInYears = employees.method(function);
 
 console.log(timeInYears);

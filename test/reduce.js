@@ -15,12 +15,13 @@ let angela = {
   salary: 3200,
 };
 
-const employees = [leonidas, nicole, richard, angela];
+const employees = [];
 
-const sum = (employee) => {
-  return employee[0].salary + employee[1].salary + employee[2].salary + employee[3].salary;
+const sum = ( previous , current ) => {
+
 }
 
-const total = employees.reduce(sum);
+const total = employees.method(function , initialValue);
 
 console.log(total);
+
