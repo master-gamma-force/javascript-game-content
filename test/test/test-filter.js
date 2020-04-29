@@ -32,11 +32,14 @@ assert.deepEqual(sabePython, [
   { name: "Richard", skill: "Python" },
 ]);
 
-describe("Test Filter", function () {
-  it("Testeando", function () {
+
+describe("Tests about Filter's Lections", function () {
+  describe("Test content employees know Python", function () {
+  it("Testings logs", function () {
     assert.deepEqual(sabePython, [
       { name: "Nicole", skill: "Python" },
       { name: "Richard", skill: "Python" },
     ]);
+  });
   });
 });

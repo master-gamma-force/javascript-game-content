@@ -73,7 +73,7 @@ console.log(tallasMx);
 
 ## Ejercicio
 
- Oscar tiene estos empleados, con este tiempo de trabajar en su empresa en meses, ahora con map, puedes convertirlo en años.
+Oscar tiene estos empleados, con este tiempo de trabajar en su empresa en meses, ahora con map, puedes convertirlo en años.
 Recuerda los pasos:
 Paso 1: Crea tus objetos.
 Paso 2: Crea un array de objetos.
